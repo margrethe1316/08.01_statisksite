@@ -1,0 +1,89 @@
+img {
+  width: 100%;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 123, 172, 1);
+  margin-right: 0.5rem;
+}
+
+.tekst_forside {
+  color: rgba(72, 17, 12, 1);
+  -webkit-text-stroke: 1px rgba(255, 123, 172, 1);
+  font-size: 4rem;
+}
+
+.knap {
+  display: inline-block; /* Sørger for, at linket opfører sig som en inline-block (kan have størrelse) */
+  padding: 10px 20px; /* Indre margin (plads omkring teksten) */
+  background-color: rgba(72, 17, 12, 1); /* Baggrundsfarve (blå) */
+  color: rgba(255, 123, 172, 1); /* Tekstfarve */
+  text-decoration: none; /* Fjern underline (standard på links) */
+  border-radius: 5px; /* Runde hjørner */
+  font-size: 16px; /* Tekststørrelse */
+  text-align: center; /* Centrer teksten */
+  transition: background-color 0.3s ease; /* Blød overgang ved hover */
+}
+
+.kategorier {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-block: 10px;
+  gap: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.produktliste {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 4;
+  gap: 10px;
+} */
+
+article {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.udsolgt {
+  opacity: 60%;
+}
+
+.sale {
+  color: rgba(72, 17, 12, 1);
+}
+
+.produkt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: flex-end;
+}
+
+.produktinfo {
+  margin-block: 20px;
+}
+
+.header a {
+  text-decoration: none;
+}
