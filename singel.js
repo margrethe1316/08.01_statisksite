@@ -1,6 +1,6 @@
 console.log("siden loaded");
 
-const id = 1583;
+const id = 1565;
 const productUrl = "https://kea-alt-del.dk/t7/api/products/" + id;
 const product = document.querySelector("#productContainer");
 
@@ -57,7 +57,9 @@ function show(data) {
                     </label>
                 </div>
 
-                <button class="add-to-basket">Add to basket</button>
+                <button class="add-to-basket">
+                <p>Add to basket</p>
+                </button>
             </div>
         </div>
 

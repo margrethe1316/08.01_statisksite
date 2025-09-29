@@ -8,22 +8,22 @@ body {
   margin: 0 auto;
 }
 .outline {
-  color: rgba(255, 123, 172, 1);
-  -webkit-text-stroke: 1px rgba(255, 123, 172, 1);
+  color: rgba(82, 165, 205, 0.5);
+  -webkit-text-stroke: 1px rgba(82, 165, 205, 0.5);
   margin-right: 0.5rem;
 }
 
 .tekst_forside {
-  color: rgba(72, 17, 12, 1);
-  -webkit-text-stroke: 1px rgba(255, 123, 172, 1);
+  color: rgba(15, 101, 142, 1);
+  -webkit-text-stroke: 1px rgba(82, 165, 205, 0.5);
   font-size: 4rem;
 }
 
 .knap {
   display: inline-block; /* Sørger for, at linket opfører sig som en inline-block (kan have størrelse) */
   padding: 10px 20px; /* Indre margin (plads omkring teksten) */
-  background-color: rgba(72, 17, 12, 1); /* Baggrundsfarve (blå) */
-  color: rgba(255, 123, 172, 1); /* Tekstfarve */
+  background-color: rgba(15, 101, 142, 1); /* Baggrundsfarve (blå) */
+  color: white; /* Tekstfarve */
   text-decoration: none; /* Fjern underline (standard på links) */
   border-radius: 5px; /* Runde hjørner */
   font-size: 16px; /* Tekststørrelse */
@@ -66,7 +66,7 @@ article {
 }
 
 .sale {
-  color: rgba(72, 17, 12, 1);
+  color: rgba(15, 101, 142, 1);
 }
 
 .flex {
@@ -139,7 +139,8 @@ nav a {
   width: 100%;
   margin-top: 1rem;
   padding: 0.8rem;
-  background-color: rgba(255, 123, 172, 1);
+  background-color: rgba(82, 165, 205, 0.5);
+  text-decoration: white;
 
   border: none;
   cursor: pointer;
@@ -157,7 +158,7 @@ nav a {
 }
 
 .size-picker label {
-  border: 1px solid #333;
+  border: 1px solid rgba(15, 101, 142, 1);
   border-radius: 4px;
   padding: 0.5rem 1rem;
   cursor: pointer;
