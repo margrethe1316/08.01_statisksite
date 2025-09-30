@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1528,
+    "productdisplayname": "Hvid T-shirt",
+    "price": 500,
+    "image": "https://kea-alt-del.dk/t7/images/webp/640/1565.webp",
+    "udsolgt": false
+  },
+  {
+    "id": 1583,
+    "productdisplayname": "Sort top",
+    "price": 500,
+    "image": "https://kea-alt-del.dk/t7/images/webp/640/1563.webp",
+    "udsolgt": false
+  },
+  {
+    "id": 1565,
+    "productdisplayname": "Sort top",
+    "price": 500,
+    "image": "https://kea-alt-del.dk/t7/images/webp/640/1562.webp",
+    "udsolgt": true
+  }
+]
